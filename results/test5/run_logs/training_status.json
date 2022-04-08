@@ -1,0 +1,29 @@
+{
+    "WaypointWalker": {
+        "checkpoints": [
+            {
+                "steps": 50107,
+                "file_path": "results\\test5\\WaypointWalker\\WaypointWalker-50107.onnx",
+                "reward": -357.2444429265128,
+                "creation_time": 1649002863.8099976,
+                "auxillary_file_paths": [
+                    "results\\test5\\WaypointWalker\\WaypointWalker-50107.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 50107,
+            "file_path": "results\\test5\\WaypointWalker.onnx",
+            "reward": -357.2444429265128,
+            "creation_time": 1649002863.8099976,
+            "auxillary_file_paths": [
+                "results\\test5\\WaypointWalker\\WaypointWalker-50107.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.0+cpu"
+    }
+}

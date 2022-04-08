@@ -1,0 +1,47 @@
+{
+    "WaypointWalker": {
+        "checkpoints": [
+            {
+                "steps": 4469,
+                "file_path": "results\\test4\\WaypointWalker\\WaypointWalker-4469.onnx",
+                "reward": 333000.0,
+                "creation_time": 1649002035.8892248,
+                "auxillary_file_paths": [
+                    "results\\test4\\WaypointWalker\\WaypointWalker-4469.pt"
+                ]
+            },
+            {
+                "steps": 7029,
+                "file_path": "results\\test4\\WaypointWalker\\WaypointWalker-7029.onnx",
+                "reward": null,
+                "creation_time": 1649002139.002215,
+                "auxillary_file_paths": [
+                    "results\\test4\\WaypointWalker\\WaypointWalker-7029.pt"
+                ]
+            },
+            {
+                "steps": 30851,
+                "file_path": "results\\test4\\WaypointWalker\\WaypointWalker-30851.onnx",
+                "reward": 272000.0,
+                "creation_time": 1649002393.3395073,
+                "auxillary_file_paths": [
+                    "results\\test4\\WaypointWalker\\WaypointWalker-30851.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 30851,
+            "file_path": "results\\test4\\WaypointWalker.onnx",
+            "reward": 272000.0,
+            "creation_time": 1649002393.3395073,
+            "auxillary_file_paths": [
+                "results\\test4\\WaypointWalker\\WaypointWalker-30851.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.0+cpu"
+    }
+}
