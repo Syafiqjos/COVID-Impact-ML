@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public bool enableController = true;
     public MovementController controller;
     public RaycastCatcher distanceMeasurer;
 
@@ -13,9 +14,15 @@ public class PlayerController : MonoBehaviour
     }
 
     private void ControlMovement() {
-        float mx = Input.GetAxisRaw("Horizontal");
-        float my = Input.GetAxisRaw("Vertical");
+        if (enableController)
+        {
+            float mx = Input.GetAxisRaw("Horizontal");
+            float my = Input.GetAxisRaw("Vertical");
 
-        controller.Move(new Vector2(mx, my));
+            controller.Move(new Vector2(mx, my));
+        } else
+        {
+            controller.Move(new Vector2(0, 0));
+        }
     }
 }

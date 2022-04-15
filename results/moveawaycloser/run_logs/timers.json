@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1649970857",
+        "python_version": "3.8.7 (tags/v3.8.7:6503f05, Dec 21 2020, 17:59:51) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\mlagents-learn --run-id=moveawaycloser --resume",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cpu",
+        "numpy_version": "1.22.3",
+        "end_time_seconds": "1649970890"
+    },
+    "total": 33.1583143,
+    "count": 1,
+    "self": 0.1328720000000061,
+    "children": {
+        "run_training.setup": {
+            "total": 0.3289434,
+            "count": 1,
+            "self": 0.3289434
+        },
+        "TrainerController.start_learning": {
+            "total": 32.696498899999995,
+            "count": 1,
+            "self": 0.0009333999999938669,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 31.878579100000003,
+                    "count": 1,
+                    "self": 31.878579100000003
+                },
+                "trainer_threads": {
+                    "total": 8.199999996350016e-06,
+                    "count": 1,
+                    "self": 8.199999996350016e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.8169782000000012,
+                    "count": 1,
+                    "self": 0.012081899999998313,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.8048963000000029,
+                            "count": 1,
+                            "self": 0.8048963000000029
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

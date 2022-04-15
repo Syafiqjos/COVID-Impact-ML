@@ -1,0 +1,65 @@
+{
+    "MoveAwayAgent": {
+        "checkpoints": [
+            {
+                "steps": 69928,
+                "file_path": "results\\moveaway\\MoveAwayAgent\\MoveAwayAgent-69928.onnx",
+                "reward": 0.3445454422723163,
+                "creation_time": 1649955338.0622199,
+                "auxillary_file_paths": [
+                    "results\\moveaway\\MoveAwayAgent\\MoveAwayAgent-69928.pt"
+                ]
+            },
+            {
+                "steps": 499976,
+                "file_path": "results\\moveaway\\MoveAwayAgent\\MoveAwayAgent-499976.onnx",
+                "reward": 0.35874998674262315,
+                "creation_time": 1649959482.0632432,
+                "auxillary_file_paths": [
+                    "results\\moveaway\\MoveAwayAgent\\MoveAwayAgent-499976.pt"
+                ]
+            },
+            {
+                "steps": 500040,
+                "file_path": "results\\moveaway\\MoveAwayAgent\\MoveAwayAgent-500040.onnx",
+                "reward": 0.35874998674262315,
+                "creation_time": 1649959482.3242478,
+                "auxillary_file_paths": [
+                    "results\\moveaway\\MoveAwayAgent\\MoveAwayAgent-500040.pt"
+                ]
+            },
+            {
+                "steps": 500040,
+                "file_path": "results\\moveawaycloser\\MoveAwayAgent\\MoveAwayAgent-500040.onnx",
+                "reward": null,
+                "creation_time": 1649970825.9250176,
+                "auxillary_file_paths": [
+                    "results\\moveawaycloser\\MoveAwayAgent\\MoveAwayAgent-500040.pt"
+                ]
+            },
+            {
+                "steps": 500040,
+                "file_path": "results\\moveawaycloser\\MoveAwayAgent\\MoveAwayAgent-500040.onnx",
+                "reward": null,
+                "creation_time": 1649970890.016024,
+                "auxillary_file_paths": [
+                    "results\\moveawaycloser\\MoveAwayAgent\\MoveAwayAgent-500040.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500040,
+            "file_path": "results\\moveawaycloser\\MoveAwayAgent.onnx",
+            "reward": null,
+            "creation_time": 1649970890.016024,
+            "auxillary_file_paths": [
+                "results\\moveawaycloser\\MoveAwayAgent\\MoveAwayAgent-500040.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.0+cpu"
+    }
+}

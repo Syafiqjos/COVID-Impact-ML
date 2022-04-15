@@ -1,32 +1,32 @@
 {
-    "WaypointWalker": {
+    "MoveAwayAgent": {
         "checkpoints": [
             {
-                "steps": 4840,
-                "file_path": "results\\test1\\WaypointWalker\\WaypointWalker-4840.onnx",
-                "reward": -999.9866283495223,
-                "creation_time": 1648995462.8262708,
+                "steps": 5264,
+                "file_path": "results\\test1\\MoveAwayAgent\\MoveAwayAgent-5264.onnx",
+                "reward": 1.257269234324877,
+                "creation_time": 1649951893.284884,
                 "auxillary_file_paths": [
-                    "results\\test1\\WaypointWalker\\WaypointWalker-4840.pt"
+                    "results\\test1\\MoveAwayAgent\\MoveAwayAgent-5264.pt"
                 ]
             },
             {
-                "steps": 14599,
-                "file_path": "results\\test1\\WaypointWalker\\WaypointWalker-14599.onnx",
-                "reward": -999.9869100873173,
-                "creation_time": 1648996174.4335248,
+                "steps": 5392,
+                "file_path": "results\\test1\\MoveAwayAgent\\MoveAwayAgent-5392.onnx",
+                "reward": null,
+                "creation_time": 1649952081.7403538,
                 "auxillary_file_paths": [
-                    "results\\test1\\WaypointWalker\\WaypointWalker-14599.pt"
+                    "results\\test1\\MoveAwayAgent\\MoveAwayAgent-5392.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 14599,
-            "file_path": "results\\test1\\WaypointWalker.onnx",
-            "reward": -999.9869100873173,
-            "creation_time": 1648996174.4335248,
+            "steps": 5392,
+            "file_path": "results\\test1\\MoveAwayAgent.onnx",
+            "reward": null,
+            "creation_time": 1649952081.7403538,
             "auxillary_file_paths": [
-                "results\\test1\\WaypointWalker\\WaypointWalker-14599.pt"
+                "results\\test1\\MoveAwayAgent\\MoveAwayAgent-5392.pt"
             ]
         }
     },
