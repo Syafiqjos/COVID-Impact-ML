@@ -54,8 +54,8 @@ public class EnemyInstance : MonoBehaviour
                 {
                     enemyInstance.Infect();
                     enemyInstance.GetAgent().SetMoveCloser(true);
-                    GameplayManager.Instance.AddScore(5);
-                    GameplayManager.Instance.ShowScoreMessage("Infected by Proxy!!");
+                    GameplayManager.Instance?.AddScore(5);
+                    GameplayManager.Instance?.ShowScoreMessage("Infected by Proxy!!");
                 }
             }
         }

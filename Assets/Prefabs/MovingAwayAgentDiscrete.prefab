@@ -216,7 +216,7 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
-  maxSearchRadius: 20
+  maxSearchRadius: 8
   currentForwardAngle: 0
   moveSpeed: 5
   enableMoveCloser: 0

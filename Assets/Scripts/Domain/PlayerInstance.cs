@@ -21,8 +21,8 @@ public class PlayerInstance : MonoBehaviour
             {
                 enemyInstance.Infect();
                 enemyInstance.GetAgent().SetMoveCloser(true);
-                GameplayManager.Instance.AddScore(1);
-                GameplayManager.Instance.ShowScoreMessage("Infect Other!");
+                GameplayManager.Instance?.AddScore(1);
+                GameplayManager.Instance?.ShowScoreMessage("Infect Other!");
             }
         }
     }
